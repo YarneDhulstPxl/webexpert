@@ -1,0 +1,61 @@
+:host {
+	margin: 0.5rem;
+	padding: 1rem;
+	flex-basis: 100%;
+	display: flex;
+	justify-content: center;
+	border: 1px solid #999;
+	border-radius: 3px;
+	background: #699;
+}
+input, button {
+	padding: 0.5rem;
+	border-radius: 2px;
+	border: 1px solid #666;
+	display: block;
+	margin-top: 0.3rem;
+	min-width: 10rem;
+	width: 15rem;
+	font: 200 0.8rem 'Helvetica';
+}
+input[type="checkbox"] {
+	display: inline-block;
+	min-width: 1rem;
+	width: 1rem;
+}
+input:focus {
+	outline: 0;
+	border-left: 5px solid #666;
+}
+label {
+	font-size: 0.8rem;
+	color:  #fff;
+}
+button {
+	background: #2ecc71;
+	color: #fff;
+	border: 1px solid #27ae60;
+	cursor: pointer;
+}
+button:hover:not(:disabled) {
+	background: #fff;
+	color: #27ae60;
+}
+button:focus {
+	outline: 0;
+}
+button:disabled {
+	border: 1px solid #666;
+	color:  #333;
+	background:  #ccc;
+	cursor: auto;
+}
+input.ng-invalid:not(.ng-pristine) {
+	border-left: 5px solid #f1c40f;
+	color: #f1c40f;
+}
+.error {
+	font-size: 0.7rem;
+	margin-top: 0.2rem;
+	color: #f1c40f;
+}

@@ -1,0 +1,13 @@
+<div>
+    <h2>
+        <span *ngIf="contact.isFavorite" class="favorite">&#9733;</span>
+        {{ contact.name }}
+    </h2>
+    <ul>
+    <li>Email: {{ contact.email }}</li>
+    <li>Phone: {{ contact.phone }}</li>
+    </ul>
+</div>
+
+<input type="checkbox" name="isFavorite" id="isFavorite" [(ngModel)]="contact.isFavorite" (click)="toggleFavorite(contact.id, contact.isFavorite)">
+<label for="isFavorite" [class.favorite]="contact.isFavorite">Favorite</label>

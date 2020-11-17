@@ -1,0 +1,63 @@
+:host {
+	padding: 1rem;
+	margin: 0.5rem;
+	border-radius: 3px;
+	background: #ecf0f1;
+	border: 1px solid #ccc;
+	display: block;
+	flex-basis: calc(50% - 1rem);
+}
+h2 {
+	font-size: 1.2rem;
+	font-weight: normal;
+	margin-bottom: 0.6rem;
+}
+ul {
+	font-size: 0.9rem;
+	list-style-type: none;
+}
+ul li {
+	line-height: 1.5rem;
+}
+
+input, button {
+	padding: 0.5rem;
+	border-radius: 2px;
+	border: 1px solid #666;
+	display: block;
+	margin-top: 0.3rem;
+	min-width: 10rem;
+}
+input[type="checkbox"] {
+	display: inline-block;
+	min-width: 1rem;
+}
+input:focus {
+	outline: 0;
+	border:  1px solid #09f;
+}
+label {
+	font-size: 0.8rem;
+}
+button {
+	background: #09f;
+	color: #fff;
+	border: 1px solid #06c;
+}
+button:hover {
+	background: #fff;
+	color: #09f;
+}
+button:focus {
+	outline: 0;
+}
+
+.favorite{
+	color: #900;
+}
+
+.avatar {
+	float: left;
+	margin-right: 0.5rem;
+	width: 50px;
+}
